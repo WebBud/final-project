@@ -69,7 +69,7 @@
 	 );
 
 	 $(".features").find(".third-features").click(function() {
-		window.location.href = '/final-project/index2.html';
+		window.location.href = 'https://webbud.github.io/final-project/index2.html';
 	});
 
 	$( "#tabs" ).tabs();
