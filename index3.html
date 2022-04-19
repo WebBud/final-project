@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Video Call Demo</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body style="background: #c3e4ff;">
+    <div style="">
+        <div>
+        <div style="height: 130px;width: 190px;overflow: hidden;">
+    <img src="src/College Buddy-logos_black.png" alt="logo" style="height: 300px;width: 300px;/* overflow: hidden; */margin: -70px 0 0 -50px;">
+    
+        <h3>Title</h3>
+    </div>
+            </div>
+        <div>
+    
+    <h1>
+        Video Call Demo<br><small style="font-size: 14pt">Major Project</small>
+    </h1>
+
+    <p>App id : <input type="text" id="app-id" value=""></p>
+    <p>Channel : <input type="text" id="channel" value=""></p>
+    <p>Token : <input type="text" id="token" placeholder="(optional)" value=""></p>
+    <div style="display: flex;">
+        <button id="start">Start</button>
+        <button id="stop" disabled="">Stop</button>
+    </div>
+    <div style="display: flex;">
+        <div style="width: 50%;">
+            <h4>My Feed :</h4>
+            <div id="me" style="width: auto;">
+                
+            </div>
+        </div>
+        <div style="width: 50%;">
+            <h4>Remote Feeds :</h4>
+            <div id="remote-container" style="width: auto;">
+
+            </div>
+        </div>
+     </div>
+            </div>
+        </div>
+
+    <script src="https://download.agora.io/sdk/release/AgoraRTC_N-4.3.0.js"></script>
+    <script src="assets/css/scripts/script.js"></script>
+
+
+
+</body></html>
