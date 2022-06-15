@@ -31,9 +31,11 @@ document.getElementById("start").onclick = async function () {
     const client = AgoraRTC.createClient({ mode: "rtc", codec: "vp8" });
 
     // Get credentials from the form
-    let appId = document.getElementById("app-id").value;
+    // let appId = document.getElementById("app-id").value;
+    let appId = "486478fde60d4c08b90d0fd4b2c5956b";
     let channelId = document.getElementById("channel").value;
-    let token = document.getElementById("token").value || null;
+    let token = "006486478fde60d4c08b90d0fd4b2c5956bIACpo/SWQ2hAOY9GiwQny7bHFPNCcdc6B8AlQo+xTPzF/ruiVPAAAAAAEABt2WwS7EurYgEAAQDrS6ti"
+    // let token = document.getElementById("token").value || null;
 
     // Create local tracks
     const [localAudioTrack, localVideoTrack] = await AgoraRTC.createMicrophoneAndCameraTracks();
