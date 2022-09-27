@@ -34,7 +34,7 @@ document.getElementById("start").onclick = async function () {
     // let appId = document.getElementById("app-id").value;
     let appId = "486478fde60d4c08b90d0fd4b2c5956b";
     let channelId = document.getElementById("channel").value;
-    let token = "006486478fde60d4c08b90d0fd4b2c5956bIACpo/SWQ2hAOY9GiwQny7bHFPNCcdc6B8AlQo+xTPzF/ruiVPAAAAAAEABt2WwS7EurYgEAAQDrS6ti"
+    let token = "007eJxTYCjhnqF2J2jKlZVqNUtS2rZ0XEzSkHyaEewk9GvZhi1rp0opMJhYmJmYW6SlpJoZpJgkG1gkWRqkGKSlmCQZJZtampolPWI3Tk6MNEkujQ9lYmSAQBCfhaEktbiEgQEASCgf0Q=="
     // let token = document.getElementById("token").value || null;
 
     // Create local tracks
